@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+
+.mainhead {
+    text-align: center;
+    size: 5in;
+    color: white;
+    font-family: 'Fruktur', cursive;
+    align-items: center;
+}
+
+.body {
+    background-color: rgb(41, 40, 60);
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div {
+    margin: auto;
+    width: 60%;
+    border: 5px solid #FFFF00;
+    padding: 10px;
+}

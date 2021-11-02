@@ -1,0 +1,21 @@
+{
+  "name": "gmail",
+  "version": "1.0.0",
+  "description": "A Unoffical gmail app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo test",
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "author": "Little SNapper",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "electron": "^15.3.0",
+    "electron-builder": "^22.13.1"
+  }
+}
