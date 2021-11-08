@@ -1,14 +1,27 @@
 # Gmail
 This is a Unoffical Gmail Application built on Electron for Windows, Mac and Linux.
 ## Installation
-To install On Windows run the Install executable in the Releases Section
-On other platforms install Node JS and run
+To install On Windows run the Install executable in the Releases Section.
+## Linux Installation
+Install NodeJS, npm and Git
+#### Arch Based
 ```bash
-npm install electron
-npm install electron-builder
+sudo pacman -S npm nodejs git --needed
 ```
-To install dependencies
-Then to build run
+#### Debian Based
+```bash
+sudo apt install nodejs npm git
+```
+#### Clone The Repository
+```bash
+git clone https://github.com/LittleSnapperYT/gmail
+cd gmail
+```
+#### Install Node Dependencies
+```bash
+npm install electron electron-builder
+```
+#### Build
 ```bash
 npm run dist
 ```
