@@ -1,8 +1,17 @@
 # Gmail
-This is a Unoffical Gmail Application built on Electron for Windows, Mac and Linux.
+This is a Unoffical Gmail Application built on Electron for Windows and Linux.
 ## Installation
 To install On Windows run the Install executable in the Releases Section.
-## Linux Installation
+On linux download AppImage or download Snap. To run appimage use
+```bash
+chmod +x filename.appimage
+./filename.appimage
+```
+To install snap use
+```bash
+snap install filename.snap --dangerous
+```
+## Linux Build Instruction
 Install NodeJS, npm and Git
 #### Arch Based
 ```bash
